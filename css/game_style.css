@@ -1,0 +1,125 @@
+@import url(./basic_style.css);
+
+.introduce-game
+{
+  display: flex;
+  gap:1rem;
+  flex-direction: column;
+}
+
+.game-list
+{
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  left: 1rem;
+  top: 5rem;
+
+  margin: 0 0 10rem 0;
+}
+
+.about-game
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.game-name
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 15rem;
+  height: 5rem;
+
+  border-radius: 58px 58px 58px 58px;
+  -webkit-border-radius: 58px 58px 58px 58px;
+  -moz-border-radius: 58px 58px 58px 58px;
+  border: thin double #fff;
+
+  background-color: #fff;
+  
+  color: #000;
+}
+
+.name-short
+{
+  font-size: 200%;
+}
+
+.name-long
+{
+  font-size: 130%;
+}
+
+.game-info
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  position: relative;
+  right: 4rem;
+
+  width: 60rem;
+  height: 5rem;
+
+  border-radius: 58px 58px 58px 58px;
+  -webkit-border-radius: 58px 58px 58px 58px;
+  -moz-border-radius: 58px 58px 58px 58px;
+  border: thin double #fff;
+
+  background-color: #0b131b;
+  
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 2rem;
+  z-index: -1;
+}
+
+.game-txt
+{
+  display: flex;
+  justify-content: left;
+
+  position: relative;
+  left: 5rem;
+}
+
+.valheim-img
+{
+  position: relative;
+  top: 2rem;
+  width: 60rem;
+  height: 30rem;
+
+  box-shadow: 5px 11px 24px 1px rgba(32,38,117,0.75);
+  -webkit-box-shadow: 5px 11px 24px 1px rgba(32,38,117,0.75);
+  -moz-box-shadow: 5px 11px 24px 1px rgba(32,38,117,0.75);
+}
+
+.skul-img
+{
+  position: relative;
+  top: 2rem;
+  width: 60rem;
+  height: 30rem;
+
+  box-shadow: 5px 11px 24px 1px rgba(92, 5, 98, 0.75);
+  -webkit-box-shadow: 5px 11px 24px 1px rgba(92, 5, 98, 0.75);
+  -moz-box-shadow: 5px 11px 24px 1px rgba(92, 5, 98, 0.75);
+}
+
+.mhw-img
+{
+  position: relative;
+  top: 2rem;
+  width: 60rem;
+  height: 30rem;
+
+  box-shadow: 5px 11px 24px 1px #06947cbf;
+  -webkit-box-shadow: 5px 11px 24px 1px #06947cbf;
+  -moz-box-shadow: 5px 11px 24px 1px #06947cbf;
+}

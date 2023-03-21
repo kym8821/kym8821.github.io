@@ -1,0 +1,109 @@
+.content-default
+{
+  padding: 1em 0 0 11em;
+}
+
+.head-default
+{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.head
+{
+  display: flex;
+  justify-content: center;
+
+  margin:0 0 1rem 0;
+
+  font-size: 1000;
+  color: #fff;
+  padding: 0 0 1rem 0;
+  border-bottom: thin dotted #fff;
+}
+
+.basic-introduce
+{
+  display: flex;
+  
+  position: relative;
+  left: 1rem;
+
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color:#fff;
+
+  line-height: 3rem;
+}
+
+.list-to-img
+{
+  display: flex;
+  flex-direction: row;
+
+  position: relative;
+  top: 3rem;
+}
+
+.vertical-list
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  height: 25rem;
+}
+
+.list-style
+{
+  display: flex;
+  justify-content: left;
+  gap: 1rem;
+
+  position: relative;
+  left: 1rem;
+
+  border: thin dotted #fff;
+
+  width: 50rem;
+  height: 6rem;
+
+  background-color: #0b131b;
+
+  flex-direction:row;
+}
+
+.list-keyword
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: 0.5rem;
+  left: 0.55rem;
+
+  width: 8rem;
+  height: 5rem;
+
+  border: thin double #fff;
+
+  background-color: #25384a;
+
+  font-size: 200%;
+  color: #fff;
+}
+
+.list-txt
+{
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  left: 0.55rem;
+
+  font-size: 100%;
+  color: #fff;
+  line-height: 2rem;
+}

@@ -1,0 +1,102 @@
+@import url(./basic_style.css);
+
+.basic-head-txt
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  position: relative;
+  left: 1rem;
+  color: #fff;
+
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+.cook-img
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: 2rem;
+  
+  margin: 0 0 3rem 0;
+
+  z-index: -1;
+}
+
+.img-box
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  width: 70rem;
+  height: 15rem;
+
+  border: thin solid #fff;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+
+  background-color: #0b131b;
+}
+
+.cook-img-style
+{
+  width: 18rem;
+  height: 12rem;
+
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: thin solid #000;
+
+  box-shadow: 5px 11px 24px 1px #e4d7b4bf;
+  -webkit-box-shadow: 5px 11px 24px 1px #e4d7b4bf;
+  -moz-box-shadow: 5px 11px 24px 1px #e4d7b4bf;
+}
+
+.cook-order-box
+{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+
+  margin: 0 0 4rem 0;
+}
+
+.cook-order
+{
+  width: 40rem;
+  height: 12rem;
+
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: thick double #000;
+
+  background-color: #fff;
+}
+
+.order-txt
+{
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+
+  position:relative;
+  top: 2rem;
+  left: 2rem;
+
+  font-size: 1.4rem;
+}

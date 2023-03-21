@@ -1,0 +1,132 @@
+.character-list-set
+{
+  display: flex;
+  gap: 1.5rem;
+
+  position: fixed;
+
+  width: 10rem;
+  height: 100%;
+
+  padding: 0 0.2rem 0 0.2rem;
+
+  background-color: #15202b;;
+
+  flex-direction: column;
+
+  border-right: thin double #fff;
+
+  z-index: 3;
+}
+
+.character-list-header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10rem;
+  height: 3rem;
+
+  background-color: #15202b;;
+
+  flex-direction: column;
+  font-size: 2.2rem;
+  color: red;
+
+  border-bottom: thin dotted #fff;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.character-list-special
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10rem;
+  height: 3rem;
+
+  background-color: #15202b;;
+
+  flex-direction: column;
+  font-size: 2rem;
+  color: #ffff00;
+
+  text-decoration: none;
+
+  transition: 0.8s;
+}
+
+.character-list-special:hover
+{
+  width: 10rem;
+  height: 3rem;
+
+  background-color: white;
+  color: #0b131b;
+  box-sizing: border-radius: 49px 49px 49px 49px;
+  -webkit-border-radius: 49px 49px 49px 49px;
+  -moz-border-radius: 49px 49px 49px 49px;
+}
+
+.character-list
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10rem;
+  height: 3rem;
+
+  background-color: #15202b;
+
+  flex-direction: column;
+  font-size: 2rem;
+  color: #fff;
+
+  text-decoration: none;
+
+  transition: 0.8s;
+}
+
+.character-list:hover
+{
+  width: 10rem;
+  height: 3rem;
+  background-color: white;
+  color: #0b131b;
+  box-sizing: border-radius: 49px 49px 49px 49px;
+  -webkit-border-radius: 49px 49px 49px 49px;
+  -moz-border-radius: 49px 49px 49px 49px;
+}
+
+.lion_img
+{
+  width: 9.4rem;
+  height: 12rem;
+
+  border: thin double #ffc800;
+  padding: 0 0 0 0.6rem;
+
+  background-color: #fff;
+}
+
+.margin-full-menu
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 10rem;
+  height: 12rem;
+
+  border-top: 0.1rem solid #fff;
+
+  background-color: #0b131b;
+  color: white;
+
+  line-height: 2.3rem;
+  font-size: 1.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

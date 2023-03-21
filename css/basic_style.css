@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url(./reset.css);
+@import url(./basic_and_list.css);
+@import url(./menu.css);
+
+@font-face {
+  font-family: 'TheJamsil5Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body
+{
+  background-color: #15202b;;
+}
+
+.main-list-style
+{
+  z-index: 3;
+}
+
+.cn
+{
+  color: #ffa500;
+}
+
+.eng-txt
+{
+  font-family: 'Anton', sans-serif;
+}
+
+.ko-txt
+{
+  font-family: 'TheJamsil5Bold';
+}
+
+.img-left
+{
+  display: flex;
+  justify-content: left;
+
+  position:relative;
+  right: 1rem;
+
+  width: 40rem;
+  height: 20rem;
+}
+
+.site-move
+{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: row;
+
+  position: relative;
+  top: 4rem;
+
+  margin: 0 2rem 7rem 2rem;
+}
+
+.site-move-button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 7rem;
+  height: 3rem;
+
+  border: thin double #fff;
+
+  background-color: #0b131b;
+
+  color: white;
+  font-size: 1.3rem;
+
+  text-decoration: none;
+
+  transition: 0.7s;
+  box-sizing: border-radius: 49px 49px 49px 49px;
+  -webkit-border-radius: 49px 49px 49px 49px;
+  -moz-border-radius: 49px 49px 49px 49px;
+}
+
+.site-move-button:hover
+{
+  background-color: #fff;
+
+  color: #0b131b;
+
+  box-sizing: border-radius: 49px 49px 49px 49px;
+  -webkit-border-radius: 49px 49px 49px 49px;
+  -moz-border-radius: 49px 49px 49px 49px;
+}

@@ -1,0 +1,205 @@
+@import url(./basic_style.css);
+
+.boj-rating
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+
+  width: 80rem;
+  height: 20rem;
+
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: thin solid #fff;
+  background-color: #0b131b;
+}
+
+.boj-rating-img
+{
+  display: flex;
+
+  position: relative;
+  left: 1rem;
+
+  width: 38.5rem;
+  height: 17rem;
+
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border: thick double #19d788;
+}
+
+.boj-rating-txt
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  left: 2rem;
+
+  width: 33rem;
+  height: 17rem;
+
+  padding: 0 2rem 0 2rem;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border: thick double #19d788;
+  
+  background-color: #fff;
+
+  line-height: 1.8rem;
+
+}
+
+.solved-ac
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  top: 6rem;
+  left: 1rem;
+}
+
+.solved-ac-box
+{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: row;
+
+  position: relative;
+  top: 3rem;
+
+  width: 80rem;
+  height: 30rem;
+
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border: thin solid #fff; 
+  margin: 0 0 6rem 0;
+
+  background-color: #0b131b;
+}
+
+.solved-site
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 0.4rem;
+  right: 0.4rem;
+  
+  width: 9rem;
+  height: 2.3rem;
+
+  border-radius: 58px 58px 58px 58px;
+  -webkit-border-radius: 58px 58px 58px 58px;
+  -moz-border-radius: 58px 58px 58px 58px;
+  border: thin solid #fff;
+
+  background-color: #4cb617;
+
+  color: #fff;
+  text-decoration: none;
+
+  transition: 0.5s;
+}
+
+.solved-site:visited
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 0.4rem;
+  right: 0.4rem;
+  
+  width: 9rem;
+  height: 2.3rem;
+
+  border-radius: 58px 58px 58px 58px;
+  -webkit-border-radius: 58px 58px 58px 58px;
+  -moz-border-radius: 58px 58px 58px 58px;
+  border: thin solid #fff;
+
+  background-color: #4cb617;
+
+  color: #fff;
+  text-decoration: none;
+
+  transition: 0.5s;
+}
+
+.solved-site:hover
+{
+  border-radius: 58px 58px 58px 58px;
+  -webkit-border-radius: 58px 58px 58px 58px;
+  -moz-border-radius: 58px 58px 58px 58px;
+  border: thin solid #fff;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.boj-tier-img
+{
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+
+  width: 50%;
+  height: 92.5%;
+
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border: thin solid #fff;
+}
+
+.boj-tier-txt
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+
+  width: 40.5%;
+  height:91%;
+
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border: thick double #19d788;
+  padding: 0 2rem 0 2rem;
+
+  background-color: #fff;
+
+  line-height: 2rem;  
+}
+
+.outro
+{
+  position: relative;
+  left: 1rem;
+  top: 4rem;
+
+  margin: 0 0 7rem 0;
+}
