@@ -66,8 +66,8 @@ body
   justify-content: center;
   align-items: center;
 
-  width: 7rem;
-  height: 3rem;
+  width: 9rem;
+  height: 4rem;
 
   border: thin double #fff;
 
@@ -79,9 +79,11 @@ body
   text-decoration: none;
 
   transition: 0.7s;
-  box-sizing: border-radius: 49px 49px 49px 49px;
+  border-radius: 49px 49px 49px 49px;
   -webkit-border-radius: 49px 49px 49px 49px;
   -moz-border-radius: 49px 49px 49px 49px;
+
+  font-size: 1.6rem;
 }
 
 .site-move-button:hover
