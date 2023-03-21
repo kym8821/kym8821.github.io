@@ -1,5 +1,11 @@
 @import url(./basic_style.css);
 
+.explain-mbti
+{
+  position: relative;
+  top: 3rem;
+}
+
 .mbti-box-set
 {
   display: flex;
