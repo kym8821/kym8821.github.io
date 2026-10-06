@@ -1,8 +1,0 @@
-@import url(./basic_style.css);
-
-.last-comment
-{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}

@@ -1,74 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>introduce_main</title>
-  <link rel="stylesheet" href="./css/intro_style.css">
+  <title>스타팅 포켓몬 랜덤 뽑기</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div class="main-list-style">
-    <div class="character-list-set">    
-      <div class="character-list-header eng-txt"> [ LIST ]</div>
-        <a href="./index.html" class="character-list eng-txt cn">{ INTRO }</a>
-        <a href="./mbti.html" class="character-list eng-txt">{ MBTI }</a>
-        <a href="./game.html" class="character-list eng-txt">{ GAME }</a>
-        <a href="./food.html" class="character-list eng-txt">{ FOOD }</a>
-        <a href="./cook.html" class="character-list eng-txt">{ COOK }</a>
-        <a href="./boj.html" class="character-list eng-txt">{ BOJ }</a>
-        <a href="./outro.html" class="character-list eng-txt">{ OUTRO }</a>
-        <br clas="full-margin-line">
-        <div class="margin-full-menu">Planned <br> by <br> LikeLion </div>
+  <header class="header">
+    <h1>스타팅 포켓몬 랜덤 뽑기</h1>
+    <p>1~9세대 스타팅 포켓몬 중 풀 · 불꽃 · 물 타입을 한 마리씩 랜덤으로 뽑습니다.</p>
+    <p class="rule">포케로그 코스트 기준 · 3마리 합계 10 이하</p>
+  </header>
+
+  <main class="main">
+    <div class="panel">
+      <button type="button" id="draw-button" class="draw-button">뽑기!</button>
     </div>
-  </div>
-  <div class="content-default ko-txt">
-    <div class="head-default">
-      <font size="7" class="head eng-txt">INTRO</font>
-      <div class="basic-introduce">
-        이번에 프론트엔드로 멋사에 들어온 소프트웨어학부 20학번 김용민입니다. <br/>
-        군대에서 BOJ에서 알고리즘을 공부하고 2학년으로 올라가면서 소프트웨어학부로 전과하게 되었습니다. <br>
-        제가 소프트웨어학부로 전과한 이유는 세 가지 있습니다. <br>
-      </div>
-    </div>
-    <div class="list-to-img">
-      <div class="vertical-list">
-        <div class="list-style">
-          <div class="list-keyword ko-txt">적성</div>
-          <div class="list-txt ko-txt">
-            저는 개인적으로 공부를 진짜 혐오합니다.<br/>
-            그런데 어느날 코딩 공부를 할 때 기쁜 마음으로 몰입해 있는 저를 발견했습니다. <br/>
-            처음으로 좋아하는 공부가 생겼다는 생각에 코딩 공부에 몰입하게 되었습니다.
-          </div>
-        </div>
-        <div class="list-style">
-          <div class="list-keyword ko-txt">실용성</div>
-          <div class="list-txt ko-txt">
-            프로그래밍은 컴퓨터와 지식만 있으면 원하는 결과를 얻을 수 있습니다. <br/>
-            이런 실용성이 너무 마음에 들어서 프로그래밍에 빠지게 되었습니다.
-            
-          </div>
-        </div>
-        <div class="list-style">
-          <div class="list-keyword ko-txt">재미</div>
-          <div class="list-txt ko-txt">
-            저는 코딩이 재미있다고 생각합니다.<br/>
-            솔직히 텍스트 편집기에 이상한 영어나 쓰는 것을 좋아할 정도로 진심은 아닙니다. <br/>
-            코딩은 재미있는 것을 구현할 수 있기에 재미있다고 생각합니다.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="last-comment">
-      <div class="basic-introduce">
-        그런데 코로나 - 군대 - 전과 트리를 타니 학교에 아는 사람도 없고, 말 수도 줄어서 저를 소개하기가 힘들어졌습니다. <br>
-        그래서 이번 기회를 통해 제 성격과 관심사에 대해서 말해보려고 합니다. <br>
-        텍스트가 조금 있습니다! 그래도 열심히 만들었으니 디자인만 보고 훈수만 해주셔도 됩니다!
-      </div>
-    </div>
-    <div class="site-move eng-txt">
-      <a href="./mbti.html" class="site-move-button">{ next }</a>
-    </div>
-  </div>
+
+    <section class="result">
+      <p id="result-caption" class="result-caption">뽑기 버튼을 눌러 보세요.</p>
+      <ul id="result-list" class="card-list"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    코스트 출처: <a href="https://github.com/pagefaultgames/pokerogue" target="_blank" rel="noopener">PokeRogue</a> ·
+    이미지 출처: <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener">PokeAPI/sprites</a> (공식 아트워크) ·
+    Pokémon © Nintendo / Creatures Inc. / GAME FREAK inc.
+  </footer>
+
+  <script src="./js/starters.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 </html>
